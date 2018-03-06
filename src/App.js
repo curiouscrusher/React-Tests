@@ -42,8 +42,8 @@ class App extends Component {
               name={this.state.name} />
           </div>
           <div className="row">
-            <UserOutput />
-            <UserOutput />
+            <UserOutput name={this.state.name} />
+            <UserOutput name={this.state.name} />
           </div>
         </div>
 
